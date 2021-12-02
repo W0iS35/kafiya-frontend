@@ -1,0 +1,147 @@
+.bg-principal{
+    background-color: #FCF9E6;
+}
+.der{
+    text-align: right;
+    align-content: inherit;
+}
+section{
+    background-image: url(../img/bg.png);
+}
+
+
+i{
+    color:#3E1F0C ;
+    
+}
+h3{
+    text-align: center;
+}
+----------------------
+body{
+ margin-top:0.5px;
+}
+.section {
+    padding: 15px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #ffffff;
+}
+
+.imga {
+    vertical-align: middle;
+    border-style: none1;
+    margin-left: 10px;
+    border-radius: 5%;
+    
+}
+
+/* About Me 
+---------------------*/
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 1px;
+}
+@media (max-width: 700px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h6 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+.about-text p {
+  font-size: 19px;
+  max-width: 450px;
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #3E1F0C;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 2px 0;
+}
+.about-list label {
+  color: #3E1F0C;
+  font-weight: 600;
+  width: 125px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #3E1F0C;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 20px;
+  }
+}
+
+.about-section .counter {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #FCF9E6;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.about-section .counter .count-data {
+  margin-top: 10px;
+
+}
+.about-section .counter .count {
+  font-weight: 700;
+  color: chocolate;
+  margin: 0 0 5px;
+}
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0px;
+}
+mark {
+    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: transparent;
+    padding: 50px;
+    color: currentColor;
+}
+.theme-color {
+    color: chocolate;
+}
+.dark-color {
+    color: #3E1F0C;
+}
+
+/* carrusel  */
