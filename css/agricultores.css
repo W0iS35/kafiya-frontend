@@ -8,7 +8,14 @@
 section{
     background-image: url(../img/bg.png);
 }
-
+.Tit-imagen{
+    position: absolute;
+    color: #ffffff;
+    top: 20%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    font-family: 'Sigmar One', cursive;
+}
 
 i{
     color:#3E1F0C ;
