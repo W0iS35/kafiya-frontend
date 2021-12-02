@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Begin: Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- End: Bootstrap-->
+
+    <!-- Begin: Bootstrap-->
+    <script src="https://kit.fontawesome.com/be7bfe42a7.js" crossorigin="anonymous"></script>
+    <!-- End: Bootstrap-->
+
+    
+    <!-- Begin: GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <!-- End: GoogleFonts -->
+
+    <title>Productos - Empresa x </title>
+
+    <!-- Begin: Styles -->
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #F2F2F2;
+        }
+        
+        main{
+            background-color: #fff;
+        }
+
+        /* Begin: Banner-descripcion */
+        
+        .banner-empresa h3{
+            font-family: 'Lobster', cursive;
+            font-size: 4rem;
+            color: #A0916D;
+        }
+        /* End: Banner-descripcion */
+
+        /* Begin: Empresa - calificacion */
+        .company, .banner-empresa{
+            padding: 1rem;
+            text-align: center;
+        }
+        .company img{
+            max-width: 300px;
+            width: 100%;
+        }
+        .calificacion span{
+            color: #E77100;
+            text-decoration: yellow;
+        }
+        /* End: Empresa - calificacion */
+
+        /* Begin: Productos */
+        .productos{
+
+        }
+        .img-product{
+            height: 200px;
+            overflow: hidden;
+            object-position: center;
+        }
+        .card{
+            margin: 2rem;
+            display: inline-block;
+        }
+        /* End: Productos */
+
+        /* Begin: Generales */
+        .container>hr{
+            background-color: #A0916D;
+            height: 5px;
+        }
+
+        .btn-kafiya{
+            margin: 1rem;
+            background-color: #A0916D;
+            color: #fff;
+            transition: all .3s ease-in-out;
+        }
+        .btn-outline-kafiya{
+            border-radius: 100%;
+            border-color: #A0916D;
+            color: #A0916D;
+
+        }
+
+        .btn-kafiya:hover{
+            border-color: #A0916D;
+            color: #A0916D;
+            background-color: #fff;
+        }
+
+        .btn-outline-kafiya:hover{
+            background-color: #A0916D;
+            color: white;
+        }
+
+        .active {
+            color:chocolate;
+        }
+        /* End: Generales */
+
+
+    </style>
+    <!-- End: Styles -->
+    
+
+
+
+</head>
+<body>
+
+    <header>
+
+
+        
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-12 col-md-3 text-center text-md-left" >
+            <a class="navbar-brand" href="#"><img src="/img/logo_kafiya.jpeg" style="width: 15rem;" class="img-w title" alt="Kafiya"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >INICIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">AGRICULTORES</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">EMPRESAS CAFETALERAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">🛒CARRITO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+
+    <main>
+        <div class="container pt-5 shadow">
+            <!-- Begin: informacion de la empresa -->
+            <div class="row mb-5">
+                <div class="col-md-6 banner-empresa">
+                    <h3>Buenos Aires </h3>
+                    <hr>
+                    <span class="text-muted">
+                        Gama de café en grano que contiene nueve variedades de puro Arábica, 
+                        provenientes tanto de África e India, como de
+                        Sudamérica y América Central
+                    </span>
+                    <hr>
+                    <div>
+                        <button class="btn btn-kafiya"> REGISTRATE</button>
+
+                        <button class="btn btn-outline-kafiya"> 
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 company">
+                    <div class="">
+                        <img class="img-w" src="/img/empresas-cafetaleras/logos/buenos-aires.jpg" alt="Buenos aires">
+                        
+                    </div>
+                    <div class="calificacion">
+                        <div>
+                            Taza de exelencia <br>
+                            <span >
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                                <i class="far fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: informacion de la empresa -->
+            <hr>
+            <!--  Begin: Productos  -->
+            <div class="row mt-5 productos justify-content-center">
+
+                <div class="card" style="width: 19rem;">
+                    <div class="img-product">
+                        <img class="card-img-top" src="/img/empresas-cafetaleras/producto/producto8.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Café Tostado En Grano/molido 250kl</h5>
+                        <p class="card-text">Ofrecemos a nuestra distinguida clientela de hogares, cafeterías y restaurantes todas las variedades de los mejores cafés que se producen en el Perú, cafés de Quillabamba y Cajamarquino <a href="">...Ver mas</a></p>
+                        <a href="#" class="btn btn-kafiya">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+                    <div class="img-product">
+                        <img class="card-img-top" src="/img/empresas-cafetaleras/producto/producto1.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CAFÉ GOURMET CÁPSULAS 10 UNIDADES</h5>
+                        <p class="card-text">Cápsulas seleccionadas, tostadas en pequeñas cantidades para garantizar el sabor, aroma y cremosidad incomparables.
+                            la presentación de este producto viene en caja de 10 capsulas <a href="">...Ver mas</a></p>
+                        <a href="#" class="btn btn-kafiya">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+                    
+                    <div class="img-product">
+                        <img class="card-img-top" src="/img/empresas-cafetaleras/producto/producto2.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CAFÉ ORGÁNICO EN GRANOS TOSTADO 1 KGe</h5>
+                        <p class="card-text">82-85 puntos Rendimiento. Café con fragancia y aroma dulce a frutas exóticas, con cuerpo mediano, acidez fina y sabor en boca a caramelo con toques de vainilla <a href="">...Ver mas</a></p>
+                        <a href="#" class="btn btn-kafiya">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+                    
+                    <div class="img-product">
+                        <img class="card-img-top" src="/img/empresas-cafetaleras/producto/producto10.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CAFÉ EN GRANO TOSTADO TIC TIC</h5>
+                        <p class="card-text">Café Especial de Monzon 1kg 90 puntos. Café con fragancia y aroma floral, con gran cuerpo, una acidez cítrica y brillante a  <a href="">...Ver mas</a></p>
+                        <a href="#" class="btn btn-kafiya">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+
+                    <div class="img-product">
+                        <img class="card-img-top" src="/img/empresas-cafetaleras/producto/producto4.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Café Premium Pangoa – Molido 250gr</h5>
+                        <p class="card-text"> Café Arábica de la variedad Caturra, Borbón y Típica, producido a una altura entre 1800 m.s.n.m. y 2250 m.s.n.m. en Pangoa, provincia <a href="">...Ver mas</a> </p>
+                        <a href="#" class="btn btn-kafiya">Ver Producto</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--  End: Productos  -->
+        </div>
+    </main>
+
+    <!-- Begin: Footer -->
+    <footer>
+
+    </footer>
+    <!-- Begin: Footer -->
+</body>
+
+<script>
+
+</script>
+
+</html>
