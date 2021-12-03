@@ -21,54 +21,65 @@
   </head>
   <body class="bg-principal">
   
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="/"><img src="img/empresas-cafetaleras/agricultores/kafiya.png" class="img-w" alt="kafiya"  width="50%"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-flex justify-content-md-end  " id="navbarNavDropdown" >
-        <ul class="navbar-nav ">
-
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html" >INICIO </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="empresas.html">EMPRESAS CAFETALERAS</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="carrito.html">🛒CARRITO</a>
+    <nav class="navbar navbar-expand-lg navbar-light  " >
+        <a class="navbar-brand" href="/"><img src="img/empresas-cafetaleras/agricultores/kafiya.png" class="img-w" alt="kafiya"  width="50%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-md-end " id="navbarNavDropdown" >
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html" >INICIO </a>
             </li>
-
-            <li class="nav-item active" style="color:chocolate;">
-                <a class="nav-link" href="login.html"> <i class="far fa-user">  </i> Iniciar sesión </a> 
+            
+            <li class="nav-item">
+              <a class="nav-link" href="empresas.html">EMPRESAS CAFETALERAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carrito.html" style="color: chocolate;" >🛒CARRITO</a>
               </li>
 
-        </ul>
-      </div>
-    </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"> <i class="far fa-user">  </i> Iniciar Sesión </a> 
+              </li>
 
-      <section style="background-color: rgb(255, 255, 255);" >
+          </ul>
+        </div>
+      </nav>
+
+
+      <section style="background-color: rgb(255, 255, 255); padding: 3% 0;" >
         <div class="container" >
           <div class="row">
             <div class="col-md-4">
                
 
             </div>
-            
-            <div class="col-md-4 text-center" style="margin: 15px 0;">
-               
-                <img src="img/logito.png" alt="" style="border-radius: 8%;"><hr>
+            <div class="col-md-4 text-center">
+                <img src="img/registro.png" alt=""><hr>
 
                 <form class="mb-5">
+
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Usuario</label>
-                      <input type="email" placeholder="Ingrese su usuario" required autofocus class="form-control" id="user" aria-describedby="emailHelp">
+                      <label for="exampleInputEmail1">Nombre completo del Cliente</label>
+                      <input type="text" placeholder="Ingrese su nombre completo" required autofocus class="form-control" id="user" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Correo</label>
+                      <input type="text" class="form-control" id="pass">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputPassword1">Contraseña</label>
-                      <input type="password" class="form-control" id="pass">
+                      <label for="exampleInputPassword1">Numero de DNI</label>
+                      <input type="number" class="form-control" maxlength="8" id="pass">
                     </div>
-                    <button type="submit" class="btn " style="background-color: #3E1F0C ; color: #FEF9E6;"  >Ingresar</button>
+
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Numero de Celular</label>
+                      <input type="number"  class="form-control" id="pass">
+                    </div>
+
+                    <button type="submit" class="btn btn-dark" style="background-color: rgb(73, 26, 26);">Registrar </button>
                   </form>
             </div>
             <div class="col-md-4">
@@ -106,8 +117,8 @@
                   <div class="col-md-3"></div>
                 </div>
       
-                
-                    <hr>
+                <hr>
+                    
       
                   <div  class="col-md-3" style=" margin: 0 33%;"> 
                       
